@@ -35,14 +35,14 @@ function EventItem({ event }) {
           <address>{formattedAddress}</address>
         </div>
       </div>
-    </div>
-    <div className={classes.actions}>
-      <Button link={exploreLink}>
-        <span> Explore Event</span>
-        <span className={classes.icon}>
-          <ArrowRightIcon />
-        </span>
-      </Button>
+      <div className={classes.actions}>
+        <Button link={exploreLink}>
+          <span> Explore Event</span>
+          <span className={classes.icon}>
+            <ArrowRightIcon />
+          </span>
+        </Button>
+      </div>
     </div>
   </li>
 }
