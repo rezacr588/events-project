@@ -1,7 +1,13 @@
+import {getFeaturedEvents} from "../../dummy-data"
+
 function EventsPage() {
+
+  const featuredItems = getFeaturedEvents()
+
   return <div>
-    <h1> This is Events Page </h1>
+    <EventList events={featuredItems} />
   </div>
+  
 }
 
 export default EventsPage
