@@ -1,4 +1,5 @@
-import {getFeaturedEvents} from "../../dummy-data"
+import EventList from "../../components/events/event-list.component"
+import { getFeaturedEvents } from "../../dummy-data"
 
 function EventsPage() {
 
